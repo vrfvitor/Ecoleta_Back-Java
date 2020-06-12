@@ -1,0 +1,16 @@
+INSERT INTO Item (id, title, image) VALUES (1, 'Lâmpadas', 'lampadas.svg');
+INSERT INTO Item (id, title, image) VALUES (2, 'Pilhas e Baterias', 'baterias.svg');
+INSERT INTO Item (id, title, image) VALUES (3, 'Papéis e Papelão', 'papeis-papelao.svg');
+INSERT INTO Item (id, title, image) VALUES (4, 'Resíduos Eletrônicos', 'eletronicos.svg');
+INSERT INTO Item (id, title, image) VALUES (5, 'Resíduos Orgânicos', 'organicos.svg');
+INSERT INTO Item (id, title, image) VALUES (6, 'Óleo de Cozinha', 'oleo.svg');
+INSERT INTO Point (id, name, email, whatsapp, latitude, longitude, city, uf, image) VALUES (1, 'Mercado', 'mercado@email.com', '9999999999', -15.789569345349255, -47.88693130016328, 'Brasília', 'DF', 'c7f0b-market.jpg');
+INSERT INTO Point (id, name, email, whatsapp, latitude, longitude, city, uf, image) VALUES (2, 'Farmácia', 'farmacia@email.com', '9999999999', -15.750639, -47.8939234, 'Brasília', 'DF', 'c2461-market2.jpg');
+INSERT INTO Point (id, name, email, whatsapp, latitude, longitude, city, uf, image) VALUES (3, 'Mercadão', 'mercadao@email.com', '9999999999', -15.750639, -47.8939234, 'Formosa', 'GO', 'c7f0b-market.jpg');
+INSERT INTO Point_Items (point_id, items_id) VALUES (1,1);
+INSERT INTO Point_Items (point_id, items_id) VALUES (1,2);
+INSERT INTO Point_Items (point_id, items_id) VALUES (1,6);
+INSERT INTO Point_Items (point_id, items_id) VALUES (2,2);
+INSERT INTO Point_Items (point_id, items_id) VALUES (2,5);
+INSERT INTO Point_Items (point_id, items_id) VALUES (3,2);
+INSERT INTO Point_Items (point_id, items_id) VALUES (3,6);
